@@ -1,0 +1,57 @@
+{
+  "dataset_name": "Cornell Movie-Dialogs Corpus",
+  "source": "https://convokit.cornell.edu/documentation/movie.html",
+  "license": "Available for academic research use (NSF-supported)",
+  "reference": "Danescu-Niculescu-Mizil & Lee, ACL 2011",
+  "splits": {
+    "train": {
+      "num_pairs": 175381,
+      "percentage": 79.68
+    },
+    "validation": {
+      "num_pairs": 22037,
+      "percentage": 10.01
+    },
+    "test": {
+      "num_pairs": 22691,
+      "percentage": 10.31
+    },
+    "total": 220109
+  },
+  "length_statistics": {
+    "input": {
+      "min": 1,
+      "max": 556,
+      "mean": 10.63,
+      "median": 7
+    },
+    "response": {
+      "min": 1,
+      "max": 313,
+      "mean": 10.28,
+      "median": 7
+    }
+  },
+  "sample_pairs": [
+    {
+      "input": "Has been wounded by <u>her</u> heat...by her <u>infidelities</u>...",
+      "response": "...yes."
+    },
+    {
+      "input": "Which examiner did you have? I probably know him.",
+      "response": "Oh, yeah, very tough. But I guess that's good... to keep out the quacks."
+    },
+    {
+      "input": "Sixty... Oh.",
+      "response": "Up on the coast. About sixty miles north of here."
+    },
+    {
+      "input": "Yeah, what?",
+      "response": "Maybe it's the time to do something, isn't it?"
+    },
+    {
+      "input": "Yes, you're right. We'll go see Glaucus. Come on.",
+      "response": "Don't you think we should get some tools, maybe?"
+    }
+  ]
+}

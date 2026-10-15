@@ -42,6 +42,10 @@ runs/
 *.ckpt
 *.pkl
 
+# Dataset cache (ConvoKit downloads raw data here)
+datasets/cornell/raw/
+.convokit/
+
 # OS
 .DS_Store
 Thumbs.db
